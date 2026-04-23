@@ -1,7 +1,6 @@
 body {
-  font-family: Arial, sans-serif;
-  max-width: 800px;
-  margin: auto;
+  font-family: "Lexend", sans-serif;
+  max-w-screen-xl mx-auto
   padding: 16px;
 }
 

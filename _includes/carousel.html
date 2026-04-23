@@ -1,0 +1,43 @@
+<section class="max-w-screen-xl mx-auto px-4 mb-12">
+    <div id="default-carousel" class="relative w-full" data-carousel="slide">
+
+        <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+
+            <div class="duration-700 ease-in-out" data-carousel-item="active">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80"
+                     class="absolute block w-full h-full object-cover"
+                     alt="Código no monitor">
+            </div>
+
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80"
+                     class="absolute block w-full h-full object-cover"
+                     alt="Setup de desenvolvimento">
+            </div>
+
+        </div>
+
+        <button type="button"
+                class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group"
+                data-carousel-prev>
+
+            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group-hover:bg-white/50">
+                <svg class="w-4 h-4 text-white rtl:rotate-180" viewBox="0 0 6 10" fill="none">
+                    <path stroke="currentColor" stroke-width="2" d="M5 1 1 5l4 4"/>
+                </svg>
+            </span>
+        </button>
+
+        <button type="button"
+                class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group"
+                data-carousel-next>
+
+            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group-hover:bg-white/50">
+                <svg class="w-4 h-4 text-white rtl:rotate-180" viewBox="0 0 6 10" fill="none">
+                    <path stroke="currentColor" stroke-width="2" d="m1 9 4-4-4-4"/>
+                </svg>
+            </span>
+        </button>
+
+    </div>
+</section>
