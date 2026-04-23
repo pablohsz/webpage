@@ -1,0 +1,11 @@
+title: Pablo Souza
+description: Blog pessoal
+baseurl: ""
+url: ""
+
+markdown: kramdown
+permalink: /:title/
+
+collections:
+  posts:
+    output: true
